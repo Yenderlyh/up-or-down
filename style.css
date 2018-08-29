@@ -71,27 +71,24 @@ html {
   
   
   
-  /* ---- components ---- */
-  
-  .button {
-    width: 100%;
-    background-color: blue;
-    color: #fff;
-    border: 1px solid #fff
+  /* TOP */
+  header div.top{
+    display: flex;
   }
-  
-  .button-alt {
-    color: blue;
-    background-color: #fff;
+  header div .score {
+    flex: 1;
   }
-  
-  /* ---- section ---- */
-  
-  section.testimonials {
-    // ...
+  header div .timer {
+    flex:1;
   }
-  
-  section.testimonials .button {
-    margin-bottom: 10px;
+
+  /**/
+
+  div.deck{
+    display: flex;
   }
-  
+
+  div.actions{
+    display: flex;
+    flex-direction: column;
+  }
