@@ -33,6 +33,10 @@ function main(){
 
         game = new Game();
         game.start();
+        game.onOver(function (){
+            gameOver();
+        }
+    )
 
         window.setTimeout(function () {
             gameOver();
